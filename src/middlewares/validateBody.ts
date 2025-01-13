@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 
+// for checking the body data present or not
 export const validateRequestBody = (
   req: Request,
   res: Response,
@@ -9,5 +10,5 @@ export const validateRequestBody = (
     res.status(400).json({ message: "Body data is required" });
     return;
   }
-  next(); // Pass control to the next middleware or route handler
+  next();
 };
