@@ -1,10 +1,14 @@
 
 This is a Job Listing API built using Express.js, MongoDB, and TypeScript. It provides functionality for creating, reading, updating, and deleting job listings.
 
-Features
+Features:
+
 Create job listings.
+
 Retrieve all job listings or a specific job listing by ID.
+
 Update job listings.
+
 Delete job listings.
 
 Prerequisites: 
